@@ -1,0 +1,9 @@
+[project]
+name = "vocavibe-backend"
+version = "0.1.0"
+description = "German learning backend: FastAPI + LangGraph agentic dictionary with RAG-driven practice."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
